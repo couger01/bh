@@ -1,2 +1,11 @@
+site:
+  about:
+    siteName: Example Javadoc Site
+    description: A site demonstrating Orchid's use of Java's javadoc api generation
 javadoc:
   sourceDirs: ['../../main/java']
+theme:
+  menu:
+    - type: "javadocPackages"
+      title: All Packages
+    - type: "pages"
